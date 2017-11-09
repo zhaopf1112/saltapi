@@ -66,4 +66,4 @@ def jobs_all(tt_, jid=None):
 if __name__ == "__main__":
   tt_ = token_get()         
   jid = async(tt_, 'mesos*', 'cmd.run', args=['df -h'])
-  jobs_all(tt_, jid=jidD
+  jobs_all(tt_, jid=jid)
